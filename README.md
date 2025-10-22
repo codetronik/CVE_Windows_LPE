@@ -22,7 +22,8 @@ icacls C:\Windows\System32\drivers\clfs.sys /grant administrators:F
 copy C:\Users\name\Downloads\clfs.sys C:\Windows\System32\drivers\clfs.sys
 shutdown /r /t 0
 ```
-4. Check your file hash
+4. Check your file hash.
+
 If the hash doesn’t match, it won’t work.
 ```
 PS C:\Users\a> Get-FileHash c:\windows\system32\drivers\clfs.sys
@@ -38,4 +39,5 @@ SHA256          0CE15480462E9CD3F7CBF2D44D2E393CF5674EE1D69A3459ADFA0E913A7A2AEB
 ```
 
 5. Run CVE-2024-49138.exe
+
 No administrator privileges are required.
