@@ -4,6 +4,9 @@ This repository collects Windows privilege escalation vulnerabilities.
 
 Each CVE has a detailed guide available in the Wiki section.
 
+#### CVE-2022-37969
+- https://github.com/codetronik/Windows-CVE-LPE/wiki/CVE%E2%80%902022%E2%80%9037969
+- 
 #### CVE-2024-26229
 - https://github.com/codetronik/Windows-CVE-LPE/wiki/CVE%E2%80%902024%E2%80%9026229
 
